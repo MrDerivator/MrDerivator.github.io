@@ -1,23 +1,11 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<?xml version="1.0"?>
+<sharpUpdate>
+	<update appId= "TestApp">
+		<version>2.0.0.0</versino>
+		<url>https://drive.google.com/open?id=0B8UJxsq-i2N9R0cyV2o0R2RhdGs</url>
+		<fileName>TestApp2.exe</fileName>
+		<md5>e3fd06664f0bedda8ea384bcb1b06960</md5>
+		<description>Initial update</description>
+		<launchArgs></launchArgs>
+	</update>
+</sharpUpdate>
